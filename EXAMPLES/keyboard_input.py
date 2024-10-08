@@ -1,5 +1,6 @@
 
-user_name = input("What is your name: ")
+user_prompt = "What is your name: "
+user_name = input(user_prompt)
 quest = input("What is your quest? ")
 print(f"{user_name} seeks {quest}")
 

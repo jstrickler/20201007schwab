@@ -5,7 +5,7 @@ print(a + b, a - b, a * b)  # normal operations
 
 print(a / b, a // b, a / -b, a // -b)   # division and floored division
   
-print(a ** b)   # exponentiation
+print(a ** b)   # exponentiation   a^b
 
 print(a % b)   # modulus (remainder)
 

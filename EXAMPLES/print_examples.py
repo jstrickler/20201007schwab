@@ -11,7 +11,7 @@ print(temperature)
 print()
 
 # Item separator is comma + space
-print(city, temperature, hit_count, average, sep=",")
+print(city, temperature, hit_count, average, sep=", ")
 print()
 
 # Item separator is empty string

@@ -26,6 +26,8 @@ print(f"title.strip() = [{title.strip()}]")
 print(f"title.lstrip() = [{title.lstrip()}]")
 print(f"title.rstrip() = [{title.rstrip()}]")
 
+print('-' * 60)
+print(dir(file_path))
 
 
 

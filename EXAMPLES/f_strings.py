@@ -1,9 +1,10 @@
-city = 'Orlando'
+city = 'Winter Haven'
 temperature = 85
 hit_count = 5
 average = 3.4563892382
 
 # variables inserted into string
+print("It is {temperature}\u00B0 in {city}")
 print(f"It is {temperature}\u00B0 in {city}")
 print()
 

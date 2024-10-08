@@ -4,6 +4,7 @@ hit_count = 5
 average = 3.4563892382
 
 # variables inserted into string
+print(f"It is {temperature}\u00B0 in {city}")
 print("It is {}\u00B0 in {}".format(temperature, city))
 print()
 

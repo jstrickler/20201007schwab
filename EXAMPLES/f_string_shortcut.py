@@ -11,3 +11,9 @@ print(f"{count = }")
 print(f"{count = :05d}")  # add formatting
 print(f"{avg = :.2f}")    # add formatting
 print(f"{flag = }")
+
+color = "red"
+print(f"{color = }")
+print(color)
+
+print(f"{color = }")
