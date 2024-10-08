@@ -1,0 +1,27 @@
+How can you use Python? 
+
+* Create a script with any text editor or IDE
+     python scriptname.py
+
+     Saves script for reuse
+     Best for larger projects
+     Best for creating modules/packages/frameworks for re-use
+
+     Best for sysadmin scripts and other general utility scripts
+
+* Use a REPL (ipython or python)
+    ipython
+    or
+    python
+
+    Does NOT save script for reuse
+    Great for testing code/experimenting
+
+* Use a Jupyter Notebook (with JupyterLab)
+    Can save a notebook
+    Saves code, output and graphics
+    Has fancy documentation (styled text etc)
+
+    Harder for larger projects
+    Not the tool for creating libraries for other code to use
+

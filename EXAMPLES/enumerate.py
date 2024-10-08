@@ -3,11 +3,13 @@ colors = "red blue green yellow brown black".split()
 
 months = "Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec".split()
 
-colors_enum = enumerate(colors)
+colors_enum = enumerate(colors)  # iterator  (magic generator thingy)
 print(f"{colors_enum = }")
 
 for i, color in colors_enum:  # enumerate() returns iterable of (index, value) tuples
     print(i, color)
+print()
+print(f"{list(enumerate(colors)) = }")
 
 print()
 
