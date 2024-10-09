@@ -3,6 +3,7 @@
 airports = {'IAD': 'Dulles', 'SEA': 'Seattle-Tacoma', 'YCC': 'Calgary',
             'RDU': 'Raleigh-Durham', 'LAX': 'Los Angeles'}
 
+#  for KEY, VALUE in DICT.items():
 for abbr, airport in airports.items():  # items() returns an iterable of key:value pairs
     print(abbr, airport)
 

@@ -6,6 +6,9 @@ set1 = set(set1data)
 set2 = set(set2data)
 
 set1.add('taupe')  # add element to set (ignored if already in set)
+set2.add('pink')
+set2.add('lavender')
+set2.add('blue')
 
 print(f"{set1 = }")
 print(f"{set2 = }")
