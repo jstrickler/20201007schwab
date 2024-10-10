@@ -1,1 +1,2 @@
-print("Hello Schwabbies!")
+def hello_schwab():
+    print("Hello Schwabbies!")

@@ -11,7 +11,9 @@ import math   # load math.py
 
 PI = math.pi
 
-def circle_area(diameter):
+Number = int | float
+
+def circle_area(diameter: Number) -> float:
     """
     Compute the area of a circle from a given diameter
 
@@ -21,7 +23,7 @@ def circle_area(diameter):
     radius = diameter / 2
     return PI * (radius ** 2)
 
-def rectangle_area(length, width):
+def rectangle_area(length: Number, width: Number) -> Number:
     """
     Compute the area of a rectangle.
 
@@ -31,7 +33,7 @@ def rectangle_area(length, width):
     """
     return length * width
 
-def square_area(side):
+def square_area(side: Number) -> Number:
     """
     Compute area of a square.
 
@@ -39,6 +41,8 @@ def square_area(side):
     :return: Area of square
     """
     return side ** 2
+
+print(f"my name is {__name__}")
 
 if __name__ == "__main__":
     area1 = square_area(15)

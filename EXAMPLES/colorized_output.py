@@ -1,4 +1,4 @@
-from ansi.color import fg, bg
+from ansi.colour import fg, bg
 from ansi.colour.fx import reset
 
 prompt = fg.red("What is your name? ")
