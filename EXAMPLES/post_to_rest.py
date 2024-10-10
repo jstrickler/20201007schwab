@@ -1,4 +1,5 @@
 from datetime import datetime
+from pprint import pprint
 import time
 import requests
 
@@ -17,5 +18,9 @@ for i in range(3):
         print(response.status_code)
         print(response.text)
         print()
+        data = response.json()  # convert JSON doc to Python struct
+        pprint(data)
+        print('-' * 60)
+        
         time.sleep(2)
 

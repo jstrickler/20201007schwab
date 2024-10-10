@@ -4,10 +4,11 @@ class Card:
         self._rank = rank
         self._suit = suit
 
-    @property
+    @property  # decorators start with "@"
     def rank(self):
         return self._rank
     # rank = property(rank)
+    # new_rank = property(rank)
 
     @property
     def suit(self):

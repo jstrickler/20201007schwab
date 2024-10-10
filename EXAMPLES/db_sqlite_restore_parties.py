@@ -1,11 +1,11 @@
 import sqlite3
 
 RESTORE_DATA = [
-    (1, 'no party'),
-    (5, 'Democratic - Republican'),
-    (19, 'Republican'),
-    (22, 'Democratic'),
-    (36, 'Democratic')
+    ('no party', 1),
+    ('Democratic - Republican', 5),
+    ('Republican', 19),
+    ('Democratic', 22),
+    ('Democratic', 36)
 ]
 
 PARTY_UPDATE = '''
@@ -23,8 +23,8 @@ where termnum = ?
 with sqlite3.connect("../DATA/presidents.db") as s3conn:
     s3cursor = s3conn.cursor()
 
-    for termnum, party in RESTORE_DATA:
-        s3cursor.execute(PARTY_UPDATE, [party, termnum])  # second argument to execute() is iterable of values to fill in placeholders from left to right
+    for data in RESTORE_DATA:
+        s3cursor.execute(PARTY_UPDATE, data)  # second argument to execute() is iterable of values to fill in placeholders from left to right
     s3conn.commit()
 
     for termnum, _ in RESTORE_DATA:

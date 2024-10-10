@@ -1,4 +1,3 @@
-
 import sqlite3
 
 # conn = sqlite3.Connection(...)
@@ -16,3 +15,4 @@ with sqlite3.connect("../DATA/presidents.db") as conn:  # connect to the databas
         print(f"{term:2d} {firstname:25} {lastname:20} {party}")
     print()
 
+    s3_cursor.close()
